@@ -16,6 +16,7 @@ from PySimpleGUI import *
     #
     # Copyright 2022, 2023 PySimpleGUI
 
+theme('Black')
 
 class SampleGUI():
 
