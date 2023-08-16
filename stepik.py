@@ -176,6 +176,72 @@
 #     else:
 #         print(i)
 
+# n = int(input())
+# l = []
+# for _ in range(n):
+#     l.append(int(input()))
+# for i in l:
+#     if i < 0: print(i)
+# for i in l:
+#     if i == 0: print(i)
+# for i in l:
+#     if i > 0: print(i)
+
+# s = 'BEEGEEK'
+# chars = list(s)
+# s = '**'.join(chars)
+# print(s)
+
+# print(*input().split(), sep='\n')
+
+# for fio in input().split():
+#     print(fio[0], end='.')
+#     # print('.'.join([fio[0]]))
+#
+#     # print('.'.join([name[0]]), end='.')
+
+# direct = input().split(chr(92))
+# print(*direct, sep='\n')
+
+# for i in input().split():
+#     print('+' * int(i))
+
+# ip = input().split('.')
+# f = ""
+# for i in ip:
+#     # print(i)
+#     if int(i) < 256:
+#         f = "ДА"
+#     elif int(i) > 255:
+#         f = "НЕТ"
+#         break
+# print(f)
+
+# print(*list(input()), sep=input())
+
+# # n = input().split() &&&&&&&&&&&&&&&&&&&&&&&&&&&??????????????????????????
+# # sc = 0
+# # for i in range(len(n)):
+# # print(sc)
+# a = input().split()
+# s = 0
+# for i in range(len(a) - 1):
+#     s += a[i + 1:].count(a[i])
+# print(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
