@@ -78,6 +78,124 @@
 #     l.append(n2)
 # print(l)
 
+# n = int(input())
+# l = []
+# for i in range(1,n+1):
+#     if n % i == 0:
+#         l.append(i)
+# print(l)
+
+# n, n2 = int(input()), int(input())
+# l = []
+# for i in range(n-1):
+#     nn = int(input())
+#     l.append(n2 + nn)
+#     n2 = nn
+# print(l)
+
+# n = int(input())
+# l = []
+# l2 = []
+# for i in range(n):
+#     n2 = int(input())
+#     l.append(n2)
+#     if l[i] % 2 == 0: # print(l)
+#         l2.append(l[i])
+# print(l2)
+
+# n = int(input())
+# l, l2 = [], []
+# for i in range(n):
+#     l = int(input())
+#     if i % 2 == 0:
+#         l2.append(l)
+# print(l2)
+
+# n = int(input())
+# li = []
+# for _ in range(n):
+#     li.append(input())
+# index = int(input())
+# res = ''
+# for s in li:
+#     if len(s) >= index:
+#         res += s[index - 1]
+#
+# print(res)
+
+# n = int(input())
+# l = []
+# for i in range(n):
+#     l.extend(input())
+# print(*l)
+
+# numbers = [1, 78, 23, -65, 99, 9089, 34, -32, 0, -67, 1, 11, 111]
+# s = []
+# sch = 0
+# for i in range(len(numbers)):
+#     s = numbers[i] ** 2
+#     sch += s
+# print(sch)
+
+# n = int(input())
+# l = []
+# l2 = []
+# for i in range(n):
+#     l.append(int(input()))
+#     l2.append((l[i]**2) + (2*l[i]) + 1)
+# print(*l, sep='\n')
+# print()
+# print(*l2, sep='\n')
+
+# n = int(input())
+# l = []
+# for i in range(n):
+#     l.append(int(input()))
+#
+# for s in l:
+#     if s != min(l) and s != max(l):
+#         print(s)
+
+# n = int(input())
+# l = []
+# for _ in range(n):
+#     l2 = input()
+#     if l2 not in l:
+#         l.append(l2)
+# print(*l, sep='\n')
+
+
+# n = [input() for _ in range(int(input()))]
+# k = [input() for _ in range(int(input()))]
+# # print(n)
+# # print(k)
+# for i in n:
+#     for s in k:
+#         if s.lower() not in i.lower():
+#             break
+#     else:
+#         print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
