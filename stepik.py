@@ -230,43 +230,134 @@
 # print(s)
 
 
+# names = ['Gvido', 'Roman' , 'Timur']
+# if 'Roman' in names:
+#     position = names.index('Roman')
+#     print(position)
+# else:
+#     print('Такого значения нет в списке')
+
+# names = ['Gvido', 'Roman' , 'Timur']
+# item = names.pop(1)
+# print(item)
+
+# numbers = [8, 9, 10, 11]
+#
+# # print(numbers)
+# numbers[1]=17
+# # print(numbers)
+# numbers.extend([4,5,6])
+# # print(numbers)
+# numbers.pop(0)
+# # print(numbers)
+# numbers *= 2
+# # print(numbers)
+# numbers.insert(3,25)
+# print(numbers)
+
+# n = input().split()
+# n = list(map(int, n))
+# # print(n)
+#
+# maxi = 0
+# mini = 0
+# maxi_i = 0
+# mini_i = 0
+#
+# for i in range(len(n)):
+#     # print(n[i],i)
+#     if n[i] > maxi:
+#         maxi = n[i]
+#         maxi_i = i
+# # print(maxi)
+# ma = maxi
+# for s in range(len(n)):
+#     if n[s] < ma:
+#         ma = n[s]
+#         mini = n[s]
+#         mini_i = s
+#
+# # print(mini)
+# # print(maxi, maxi_i, mini, mini_i)
+# n[maxi_i], n[mini_i] = mini, maxi
+# print(*n)
+
+# text = (input().lower().split())
+#
+# a = text.count('a')
+# an = text.count('an')
+# the = text.count('the')
+# art_sum = a + an + the
+# print('Общее количество артиклей:', art_sum)
+
+# numbers = [4, 2, 8, 6, 5, 3, 10, 4, 100, 1, -7]
+# numbers.sort()
+# del numbers[0]
+# del numbers[-1]
+# numbers.sort(reverse=True)
+# print(numbers)
+
+# stroka = input().split()
+# stroka = list(map(int, stroka))
+# # print(stroka)
+# stroka.sort()
+# print(stroka)
+# stroka.sort(reverse=True)
+# print(stroka)
+
+# print([i ** 2 for i in range(10)])
+
+# chars = [c for c in 'abcdefg']
+# print(chars)
+
+# keywords = ['False', 'True', 'None', 'and', 'with',
+#             'as', 'assert', 'break', 'class', 'continue',
+#             'def', 'del', 'elif', 'else', 'except', 'finally',
+#             'try', 'for', 'from', 'global', 'if', 'import',
+#             'in', 'is', 'lambda', 'nonlocal', 'not', 'or',
+#             'pass', 'raise', 'return', 'while', 'yield']
+#
+# new_keywords = [s[1:] for s in keywords]
+# print(new_keywords)
+
+# keywords = ['False', 'True', 'None', 'and', 'with', 'as', 'assert', 'break', 'class', 'continue',
+#             'def', 'del', 'elif', 'else', 'except', 'finally', 'try', 'for', 'from', 'global', 'if',
+#             'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'while',
+#             'yield']
+#
+# lengths = [s for s in keywords if len(s) >= 5]
+#
+# print(lengths)
+
+# palindromes = [int(i) for i in range(100, 1001) if str(i) == str(i)[::-1]]
+#
+# print(palindromes)
+
+# print(*(i**2 for i in range(1, int(input())+1)), sep='\n')
+
+#--------------------------
+# n = input().split()                             !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# n = list(map(int, n))
+# # print(n)
+# print(*([i**3 for i in n]))
+
+# print(*[int(i) ** 3 for i in input().split()]) !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#-------------------------
+
+# print(*(input().split()), sep='\n' )
+
+# print(*(i for i in input() if i.isdigit()), sep="")
+
+# print(*(int(i)**2 for i in input().split() if int(i)**2 != (int(i)**2[::-1] == 4)))
 
 
+# n = input().split()
+#
+# print([int(i)**2 for i in n if int(i) % 2 == 0 and int(i)**2 != 4])
 
+# n = ['2','3','4','5','6','7','78','9']
+# n =
+# print(n)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(*[int(i) ** 2 for i in input().split() if i[-1] in "046"])
 
