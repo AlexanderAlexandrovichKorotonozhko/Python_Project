@@ -359,5 +359,114 @@
 # n =
 # print(n)
 
-print(*[int(i) ** 2 for i in input().split() if i[-1] in "046"])
+# print(*[int(i) ** 2 for i in input().split() if i[-1] in "046"])
+
+# def draw_box():
+#     a = "*        *"
+#     b = "**********"
+#     for i in range(14):
+#         if i != 0 and i != 13:
+#             print(a)
+#         else: print(b)
+# draw_box()
+
+
+# def draw_triangle(a):
+#     for i in range(1,a+1):
+#         print(i * "*")
+# draw_triangle(int(input()))
+
+
+
+# def draw_box(height, width):
+#     for i in range(1, height+1):
+#         i *= "*"
+#         print(i)
+# draw_box(int(input("height")),int(input("width")))
+
+# def draw_box(height, width):
+#     for i in range(height):
+#         print('* ' * width)
+#
+# draw_box(int(input("height ")),int(input("width ")))
+# print()
+# draw_box(int(input("height ")),int(input("width ")))
+# print()
+# draw_box(int(input("height ")),int(input("width ")))
+
+# def change_us(a, b):
+#     a = 0
+#     b = 0
+#     print(a, b)
+#
+# x = 1
+# y = 7
+# print(x, y)
+# change_us(x, y)
+# print(x, y)
+
+# def print_text(text, num):
+#     while num > 0:
+#         print(text, end='')
+#         num -= 1
+#
+# print_text('Python', 4)
+
+# from math import *
+#
+# def draw_triangle(fill, base):
+#     # n = int(input())
+#     s = ceil(base/2)
+#     count = 0
+#     for i in range(1, base+1):
+#         if i > s:
+#             count -= 1
+#         else:
+#             count += 1
+#         for _ in range(count):
+#             print(fill, end='')
+#         print()
+# draw_triangle(input(),int(input()))
+
+# def print_fio(name, surname, patronymic):
+#         print(surname[0], name[0], patronymic[0], sep='')
+#
+# name, surname, patronymic = input(), input(), input()
+# print_fio(name.upper(), surname.upper(), patronymic.upper())
+
+# def print_digital_sum(num):
+#     summa = 0
+#     while num != 0:
+#         summa += num%10
+#         num //= 10
+#     print(summa)
+# print_digital_sum(int(input()))
+
+#     for i in range():
+#         summa += num[i]
+#     print(summa)
+# print_digital_sum()
+
+# i = int(input())
+# i%=10
+# print(i)
+
+
+
+# def swap(a, b):
+#     a, b = b, a
+#
+# a = 4
+# b = 3
+# swap(a, b)
+# print(a - b)
+
+
+
+
+
+
+
+
+
 
