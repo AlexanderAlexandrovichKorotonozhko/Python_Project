@@ -18,8 +18,8 @@ def dob_test(peremennaya):
     return text
 
 
-print(permennaya(text_ru)) # вывести транслит название переменной
-print(dob_test(permennaya(text_ru))) # Вывести транслит название переменной в приставкой text для pyTest
+print(permennaya(text_ru))                  # вывести транслит название переменной
+print(dob_test(permennaya(text_ru)))        # Вывести транслит название переменной в приставкой text для pyTest
 
 # text = input()
 # trans = Translator(from_lang="russian",to_lang="English")
