@@ -1,3 +1,5 @@
+from math import *
+
 # print(list(range(1,5+1)))
 
 # primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71]
@@ -471,8 +473,61 @@
 # print(x)
 
 
+# def convert_to_miles(km):
+#     return km * 0.6214
+#
+#
+# print(convert_to_miles(int(input())))
 
 
+# def delit(num):
+#     l=[]
+#     for i in range(1,num+1):
+#         if num % i == 0:
+#             l.append(i)
+#     print(l)
+# delit(int(input()))
+
+
+# def delit(num):
+#     count = 0
+#     for i in range(1,num+1):
+#         if num % i == 0:
+#             count += 1
+#     return count
+#
+# print(delit(int(input())))
+
+
+# def sort_list(l1, l2):
+#     l1+=l2
+#     # l1.sort()
+#     return sorted(l1)
+#
+# print(sort_list([int(c) for c in input().split()], [int(c) for c in input().split()]))
+
+
+
+# def quick_merge(list1, list2):
+#     result = []
+#
+#     p1 = 0  # указатель на первый элемент списка list1
+#     p2 = 0  # указатель на первый элемент списка list2
+#
+#     while p1 < len(list1) and p2 < len(list2):  # пока не закончился хотя бы один список
+#         if list1[p1] <= list2[p2]:
+#             result.append(list1[p1])
+#             p1 += 1
+#         else:
+#             result.append(list2[p2])
+#             p2 += 1
+#
+#     if p1 < len(list1):  # прицепление остатка
+#         result += list1[p1:]
+#     else:  # иначе прицепляем остаток другого списка
+#         result += list2[p2:]
+#
+#     return result
 
 
 
